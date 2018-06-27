@@ -1,0 +1,80 @@
+body {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.p-head {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #39AC6A;
+}
+
+.p-head .content {
+	display: flex;
+	width: 1080px;
+	justify-content: flex-start;
+	margin: 0 2px;
+	align-items: center;
+	font-size: 12px;
+	line-height: 25px;
+}
+
+.p-head .head_nav ul {
+	display: flex;
+}
+
+.p-head .head_nav ul li {
+	list-style-type: none;
+	padding: 0 10px;
+}
+
+.p-head .head_nav ul li a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.p-head .content .head_right {
+	color: #FFFFFF;
+	margin-left: 235px;
+}
+
+.p-head .content .head_right span {
+	padding: 0 8px;
+}
+
+.p-head .content .head_right a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.publided-house {
+	
+}
+
+.publided-house .title {
+	width: 1080px;
+	margin-left: 95px;
+}
+
+.publided-house  .details {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+.publided-house  .details .infos{
+	width:400px;
+	text-align: center;
+}
+.publided-house  .details .status{
+	width:200px;
+	text-align: center;
+}
+.publided-house  .details .do{
+	width:200px;
+	text-align: center;
+}
+
+

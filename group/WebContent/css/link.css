@@ -1,0 +1,174 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(../images/loginbg.jpg);
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 8px 32px;
+	background-color: rgba(255, 255, 255, 1);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.header button {
+	display: inline-block;
+	text-align: center;
+	padding: 8px 16px;
+	border: 0px;
+	color: #ffffff;
+	background-color: #0084ff;
+	border: 1px solid #0084ff;
+}
+
+.group1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	padding-top: 80px;
+	padding-right: 80px;
+}
+
+.group2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 80px;
+	padding-right: 80px;
+}
+
+.loginform {
+	background-color: rgba(255, 255, 255, 1);
+	width: 490px;
+	padding: 10px;
+	border-radius: 2px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.registerform {
+	background-color: rgba(255, 255, 255, 1);
+	width: 600px;
+	padding: 10px;
+	border-radius: 2px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.header-item {
+	padding-bottom: 8px;
+	border-bottom: 1px solid #b2b2b2;
+	margin-bottom: 16px;
+}
+
+.group1  input {
+	display: block;
+	width: 400px;
+	height: 40px;
+	padding: 8px 8px;
+	border: 1px solid #e7e7e7;
+	margin: 14px 0;
+	padding-left: 14px;
+}
+
+#loginForm {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.error {
+	font-size: 14px;
+	width: 400px;
+	display: flex;
+	justify-content: start;
+	color:red;
+}
+
+.group2 .input-item input {
+	display: block;
+	width: 230px;
+	height: 30px;
+	border: 1px solid #e7e7e7;
+	padding-left: 14px;
+	padding-right: 137px;
+}
+
+.group1 #loginbutton {
+	background-color: #0084ff;
+}
+
+.group2 #registerForm {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.group2 .button-item input {
+	margin-top: 16px;
+	width: 400px;
+	display: block;
+	text-align: center;
+	padding: 8px 20px;
+	border: 0px;
+	color: #ffffff;
+	background-color: #0084ff;
+	border: 1px solid #0084ff;
+}
+
+.group2 .button-item {
+	display: flex;
+	justify-content: center;
+}
+
+.group2 #pNumber {
+	display: block;
+	width: 400px;
+	height: 40px;
+	padding: 8px 8px;
+	border: 1px solid #e7e7e7;
+	margin: 14px 0;
+	padding-left: 14px;
+}
+
+.group2 #validNum {
+	width: 260px;
+	height: 40px;
+	padding: 8px 8px;
+	border: 1px solid #e7e7e7;
+	margin: 14px 0;
+	padding-left: 14px;
+}
+
+.group2 #GetvalidNum {
+	width: 100px;
+	height: 40px;
+	padding: 8px 8px;
+	border: 1px solid #e7e7e7;
+	margin: 14px 0;
+	margin: 0 19px;
+	background-color: #0084ff;
+}
+
+input[type="button"],button,input[type="submit"]{
+	cursor: pointer;
+}
+
+#login {
+	display: none;
+}
+
+#signin {
+	display: none;
+}
+
+#footer {
+	text-align: center;
+}

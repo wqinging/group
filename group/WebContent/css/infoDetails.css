@@ -1,0 +1,135 @@
+body {
+	display: flex;
+	background-color: #f1f1f1;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0;
+	margin: 0;
+}
+
+.main {
+	border: 1px solid #ebebeb;
+	background-color: #fcfcfc;
+	width: 1080px;
+	display: flex;
+	flex-direction: column;
+}
+
+.main .main-top {
+	height: 105px;
+	color: #333;
+	font-size: 28px;
+	font-weight: bold;
+	padding-left: 36px;
+	border: 1px solid #ebebeb;
+	color: #333;
+	font-weight: bold;
+}
+
+.main .main-top p span{
+	padding-right:15px;
+}
+
+.main .main-buttom {
+	display: flex;
+}
+
+.main-buttom .imageShow {
+	width: 500px;
+}
+
+.main-buttom .imageShow img {
+	width: 454px;
+	height: 340px;
+	margin: 20px;
+}
+
+.main-buttom .infoShow .priceShow {
+	display: flex;
+	flex-direction: row;
+	font-size: 16px;
+	color: #e4393c;
+	line-height: 46px;
+	border-bottom: 1px solid #e4e3e3;
+}
+
+.main-buttom .infoShow .priceShow p {
+	margin-bottom: 0;
+}
+
+.main-buttom .infoShow .priceShow p span {
+	height: 38px;
+	color: #e4393c;
+	font-weight: bold;
+	font-size: 46px;
+}
+
+.main-buttom .infoShow .otherShow {
+	border-bottom: 1px solid #e4e3e3;
+}
+
+.infoShow .otherShow p {
+	margin: 0px 0;
+	color: #888;
+	display: flex;
+	align-items: center;
+}
+
+.infoShow .otherShow .otherShow-top {
+	display: flex;
+}
+
+.infoShow .otherShow .otherShow-top div:nth-of-type(1) {
+	margin-right: 119px;
+}
+
+.infoShow .otherShow .data {
+	padding: 10px;
+	font-size: 12px;
+	color: #333;
+}
+
+.infoShow .rentInfos {
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #e4e3e3;
+}
+
+.infoShow .rentInfos .renterImage img {
+	height: 76px;
+	border-radius: 50%;
+	padding: 15px;
+}
+
+.infoShow .rentInfos  .otherInfos {
+	margin-left: 4px;
+}
+
+.main-buttom .infoShow .rentInfos .otherInfos p {
+	padding: 0;
+	margin: 0;
+	font-size: 17px;
+}
+
+.main-buttom .infoShow .rentInfos .otherInfos p span {
+	font-size: 28px;
+	line-height: 24px;
+	font-weight: bold;
+	color: #e4393c;
+	letter-spacing: -1px;
+}
+
+#allmap {
+	width: 90%;
+	height: 500px;
+}
+
+.map {
+	width: 1080px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 24px;
+}

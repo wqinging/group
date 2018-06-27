@@ -1,0 +1,45 @@
+body {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #F1F1F1;
+}
+
+.headPart {
+	background-color: #FFFFFF;
+}
+
+.navPart {
+	display: flex;
+	justify-content: center;
+}
+
+.houseinfoPart {
+	background-color: #FFFFFF;
+}
+
+.loginPart {
+	display:none;
+	position: fixed;
+	top: 14%;
+	background: #F1F1F1;
+	padding: 26px;
+}
+
+.loginsPart {
+	display:none;
+	position: fixed;
+	top: 14%;
+	background-color: #F1F1F1;
+	padding: 26px;
+}
+
+.registerPart {
+	display:none;
+	position: fixed;
+	top: 14%;
+	background: #F1F1F1;
+	padding: 26px;
+}

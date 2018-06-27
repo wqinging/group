@@ -1,0 +1,113 @@
+body {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.p-head {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #39AC6A;
+}
+
+.p-head .content {
+	display: flex;
+	width: 1080px;
+	justify-content: flex-start;
+	margin: 0 2px;
+	align-items: center;
+	font-size: 12px;
+	line-height: 25px;
+}
+
+.p-head .head_nav ul {
+	display: flex;
+}
+
+.p-head .head_nav ul li {
+	list-style-type: none;
+	padding: 0 10px;
+}
+
+.p-head .head_nav ul li a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.p-head .content .head_right {
+	color: #FFFFFF;
+	margin-left: 235px;
+}
+
+.p-head .content .head_right span {
+	padding: 0 8px;
+}
+
+.p-head .content .head_right a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.formdata {
+	display: flex;
+	flex-direction: column;
+}
+
+.formdata p {
+	color: #333;
+	font-weight: bold;
+	border-bottom: 1px solid #eee;
+	height: 71px;
+	display: flex;
+	align-items: center;
+	padding: 0;
+	margin: 0;
+}
+
+.formdata p input[type='text'] {
+	border: none;
+}
+
+.formdata p span {
+	padding: 0 10px;
+}
+
+.formdata p input[type='submit'] {
+	width: 190px;
+	line-height: 55px;
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	border-radius: 2px;
+	background-color: #00ac65;
+	cursor: pointer;
+}
+
+.formdata p:last-child {
+	justify-content: center;
+}
+
+.form {
+	width: 1080px;
+}
+
+form {
+	display: flex;
+	justify-content: center;
+}
+
+.form .title {
+	font-weight: bold;
+	color: #333;
+	font-size: 33px;
+	text-align: center;
+	display: flex;
+	justify-content: flex-start;
+	padding: 15px;
+}
+
+input[type="password"]{
+	border:none;
+}

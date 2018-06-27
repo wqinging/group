@@ -1,0 +1,146 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+	margin: 0;
+}
+
+.info-head {
+	width: 1080px;
+	line-height: 40px;
+	border: 1px solid #e0e0e0;
+	display: flex;
+	justify-content: space-between;
+	margin: 0px;
+	padding: 0px;
+}
+
+.info-head .info-head-left {
+	color: #333;
+	font-size: 14px;
+	padding: 0px 26px;
+}
+
+.info-head .info-head-right {
+	display: felx;
+	padding: 0px 26px;
+}
+
+.info-head .info-head-right h2 {
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+}
+
+.info-head .info-head-right h2 span:nth-of-type(2) {
+	color: #E4393C;
+	margin: 0 5px;
+	font-size: 16px;
+	font-family: tahoma;
+}
+
+.info {
+	width: 1080px;
+	display: flex;
+	flex-direction: column;
+}
+
+.info-main {
+	width: 1080px;
+	height: 182px;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px dotted #e1e1e1;
+}
+
+.info-main .info-main-image img {
+	width: 180px;
+	height: 130px;
+}
+
+.info-main .info-main-image {
+	width: 180px;
+	padding: 0 20px;
+}
+
+.info-main .info-main-infos {
+	width: 700px;
+}
+
+.info-main .info-main-price {
+	width: 200px;
+}
+
+.info-main-infos div {
+	margin: 10px 0;
+}
+
+.info-main-infos div h2 a span {
+	margin-right: 15px;
+}
+
+.info-main-infos div:nth-of-type(1) h2 {
+	margin: 0;
+}
+
+.info-main-infos div:nth-of-type(1) h2 a {
+	text-decoration: none;
+	margin: 0;
+	color: #00A9FA;
+}
+
+.info-main-infos div:nth-of-type(2) {
+	line-height: 18px;
+	font-weight: 700;
+}
+
+.info-main-infos div:nth-of-type(2) span {
+	padding-right: 8px;
+}
+
+.info-main-infos div:nth-of-type(3) span {
+	color: #888888;
+}
+
+.info-main-infos div:nth-of-type(4) span {
+	border: 1px solid #357eac;
+	color: #6e96af;
+	padding: 0 4px;
+}
+
+.info-main .info-main-price {
+	color: #E4393C;
+}
+
+.info-main .info-main-price span {
+	font-size: 30px;
+	font-weight: 700;
+	margin-right: 3px;
+	font-family: tahoma;
+}
+
+.no-info p {
+	font-size: 22px;
+	color: #888;
+	line-height: 150px;
+	text-align: center;
+}
+
+.paging {
+	display: flex;
+	justify-content: center;
+}
+
+.paging p {
+	margin: 0 21px;
+	color: #888;
+	font-size: 21px;
+}
+
+.paging p a{
+    text-decoration:none;
+	color: #888;
+	font-size: 21px;
+}
